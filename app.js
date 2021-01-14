@@ -1,5 +1,6 @@
-const express = require("express");
-require("dotenv").config();
+import express from "express";
+import { config } from "dotenv";
+config();
 
 const { HOST, PORT } = process.env;
 
